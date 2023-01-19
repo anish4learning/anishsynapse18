@@ -1,0 +1,21 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"workspaceName": {
+			"value": "anishsynapsews18"
+		},
+		"AzureDataLakeStorageLs_accountKey": {
+			"value": ""
+		},
+		"anishsynapsews18-WorkspaceDefaultSqlServer_connectionString": {
+			"value": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=tcp:anishsynapsews18.sql.azuresynapse.net,1433;Initial Catalog=@{linkedService().DBName}"
+		},
+		"AzureDataLakeStorageLs_properties_typeProperties_url": {
+			"value": "https://gen2empdata.dfs.core.windows.net/"
+		},
+		"anishsynapsews18-WorkspaceDefaultStorage_properties_typeProperties_url": {
+			"value": "https://gen2empdata.dfs.core.windows.net"
+		}
+	}
+}

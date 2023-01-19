@@ -1,0 +1,7 @@
+{
+	"name": "synapse-ws-custstgacct--anishsynapsews18-gen2empdata",
+	"properties": {
+		"privateLinkResourceId": "/subscriptions/2347d1e3-5c29-49fb-a5d4-d393bee46210/resourceGroups/Day4RG/providers/Microsoft.Storage/storageAccounts/gen2empdata",
+		"groupId": "dfs"
+	}
+}

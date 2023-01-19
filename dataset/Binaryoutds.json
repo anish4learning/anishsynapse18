@@ -1,0 +1,18 @@
+{
+	"name": "Binaryoutds",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorageLs",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "output"
+			}
+		}
+	},
+	"type": "Microsoft.Synapse/workspaces/datasets"
+}
